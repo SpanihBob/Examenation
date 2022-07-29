@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>сайт с вертикальным меню</title>
+    <link rel="stylesheet" href="боковое меню стиль.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="w100">
+<!-- input нужен для того, что бы в дальнейшем задать стили иконке ☰ по событию checked, то есть когда меню будем открыать и закрыать -->
+<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+<label class="btn-menu" for="hmt">
+    <span class="first"></span>
+    <span class="second"></span>
+    <span class="third"></span>
+</label>
+<!-- Менюшка раскрывающаяся и скрывающаяся -->
+
+<ul class="hidden-menu">
+    <li class="w100 li">
+        <a href="" class="btnSidebar"><img class="microImage" src="./img/тарелка.png" alt="">Посуда</a>
+        <ul class="w100">
+            <li class="w100"><a href="#">Тарелки</a></li>
+            <li class="w100"><a href="#">Чайные пары</a></li>
+            <li class="w100"><a href="#">Соусники</a></li>
+            <li class="w100"><a href="#">Тарелки</a></li>
+            <li class="w100"><a href="#">Чайные пары</a></li>
+            <li class="w100"><a href="#">Соусники</a></li>
+            <li class="w100"><a href="#">Тарелки</a></li>
+            <li class="w100"><a href="#">Чайные пары</a></li>
+            <li class="w100"><a href="#">Соусники</a></li>
+          </ul>
+    </li>
+    <li class=" w100">
+        <a href="" class="btnSidebar"><img class="microImage" src="./img/коллекция.png" alt="">Коллекции</a>
+        <ul class="w100">
+            <li class="w100"><a href="#">Overview</a></li>
+            <li class="w100"><a href="#">Weekly</a></li>
+            <li class="w100"><a href="#">Monthly</a></li>
+            <li class="w100"><a href="#">Annually</a></li>
+        </ul>
+    </li>
+    <li class=" w100">
+        <a href="" class="btnSidebar"><img class="microImage" src="./img/ваза.png" alt="">Интерьер</a>
+        <ul class="w100">
+            <li class="w100"><a href="#">New</a></li>
+            <li class="w100"><a href="#">Processed</a></li>
+            <li class="w100"><a href="#">Shipped</a></li>
+            <li class="w100"><a href="#">Returned</a></li>
+        </ul>
+    </li>
+    <li class=" w100"><a href="" class="btnSidebar"><img class="microImage" src="./img/на заказ.png" alt="">Изделия на заказ</a></li>
+    <li class=" w100"><a href="" class="btnSidebar"><img class="microImage" src="./img/скидки.png" alt="">Скидки</a></li>
+</ul>
+<!-- А затем уже контент странички. В примере просто зашголовок, что бы было видно, как менюшка нахлёстом выдвигается -->
+    <header>
+        <h1>Lorem ipsum</h1>
+    </header>
+
+
+
+
+
+    <!-- <div class="sidebar">
+        <ul class="ulSidebar">
+          
+        </ul>
+    </div> -->
+</body>
+</html>
